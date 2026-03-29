@@ -1,0 +1,33 @@
+{
+  "boss_cli": {
+    "command": "boss",
+    "python": "python3",
+    "cities": ["Beijing", "Hangzhou"],
+    "keywords": ["AI testing", "test development", "AI agent", "model evaluation"]
+  },
+  "resume": {
+    "base_path": "./examples/candidate_profile.example.md",
+    "output_root": "./output",
+    "chrome_bin": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
+  "automation": {
+    "auto_greet_new_jobs": true,
+    "auto_greet_pending_backlog": false,
+    "auto_greet_backlog_limit_per_scan": 20,
+    "greet_notify_mode": "batch_summary"
+  },
+  "reply": {
+    "auto_send_on_first_reply": true,
+    "auto_send_trigger": "any_reply",
+    "attachment_preference": ["pdf", "docx"],
+    "browser_sender": "playwright",
+    "cookie_source": "chrome"
+  },
+  "delivery": {
+    "notifier": "stdout"
+  },
+  "logging": {
+    "enabled": true,
+    "runtime_log_path": "./state/runtime.jsonl"
+  }
+}
