@@ -1,5 +1,7 @@
 # BOSS Job Automation Playbook
 
+![BOSS Job Automation Playbook social card](docs/assets/social-card.png)
+
 An open-source, sanitized playbook for building a BOSS-style job discovery, outreach, and reply-handling pipeline.
 
 一个开源、脱敏后的 BOSS 风格求职自动化方案，重点覆盖职位发现、去重、自动打招呼规划、招聘方回复处理，以及定制简历触发逻辑。
